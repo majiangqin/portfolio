@@ -1,150 +1,129 @@
 import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub, AiFillEye} from "react-icons/ai";
 import {ImBook} from "react-icons/im";
+import {FaBookOpen} from "react-icons/fa";
 
 import sklearnGenetic from "../images/sklearn_genetic_opt.png"
 import graphEmbeddings from "../images/graph_embeddings.png"
 import kafkaMl from "../images/kafkaml.png"
 import portfolio from "../images/portfolio.png"
+import chatbot from "../images/chatbot.png"
+import lidar from "../images/lidar.png"
+import food from "../images/food.png"
+import sdxl from "../images/sdxl.png"
 
 import React from 'react'
 
 const projectConfig = [
     {
         id: "project-5",
-        title: "Sklearn Genetic Opt",
+        title: "Chatbot for Travel Mobile App",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt",
+                url: "https://github.com/Connected-To-Culture",
                 icon: <AiFillGithub/>,
             },
             {
                 name: "fork",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/fork",
+                url: "https://github.com/Connected-To-Culture/trip-planner-back-end/tree/chatbot-testing",
                 icon: <BiGitRepoForked/>,
             },
             {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/subscription",
+                url: "https://github.com/Connected-To-Culture/trip-planner-front-end/tree/chatbot-test",
                 icon: <AiFillEye/>,
             },
             {
                 name: "docs",
-                url: "https://sklearn-genetic-opt.readthedocs.io/en/stable/",
-                icon: <ImBook/>,
+                url: "https://www.connectedtoculture.org/",
+                icon: <FaBookOpen/>,
             }
         ],
-        image: sklearnGenetic,
-        description: "scikit-learn models hyperparameters tuning and feature selection, using evolutionary algorithms.",
+        image: chatbot,
+        description: "Gained proficiency in Google Cloud Platform and full stack development, integrating AI by utilizing Dialogflow CX and Vertex\n" +
+            "AI to integrate a chatbot into the travel mobile app. Enabled the chatbot to translate African languages, provide customer\n" +
+            "service, and assist in making customer travel plans.",
         target: "_blank"
     },
-    {
+        {
         id: "project-4",
-        title: "Graphs Embeddings",
+        title: "Fine-Tuning Stable Diffusion XL for Stylistic Icon Generation",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings",
+                url: "https://github.com/Connected-To-Culture",
                 icon: <AiFillGithub/>,
             },
             {
-                name: "fork",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/fork",
-                icon: <BiGitRepoForked/>,
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/Graph-Embeddings/subscription",
-                icon: <AiFillEye/>,
-            },
-            {
                 name: "docs",
-                url: "https://graph-embeddings.readthedocs.io/",
+                url: "https://www.connectedtoculture.org/",
                 icon: <ImBook/>,
             }
         ],
-        image: graphEmbeddings,
-        description: "Graph embeddings for downstream tasks.",
+        image: sdxl,
+        description: "Preprocess structured and unstructured data, including product attributes, text, and imagery. Engineer and integrate\n" +
+            "Generative AI models for automated image icon generation and transfer learning.\n" +
+            "Evaluate system performance and iteratively refined algorithms to improve effectiveness.",
         target: "_blank"
     },
     {
         id: "project-3",
-        title: "Kafkaml Anomalies",
+        title: "Smart City Infrastructure Program",
         links: [
             {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection",
-                icon: <AiFillGithub/>
-            },
-            {
-                name: "fork",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/fork",
-                icon: <BiGitRepoForked/>
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/subscription",
-                icon: <AiFillEye/>
+                name: "docs",
+                url: "https://vip.gatech.edu/teams/vvc",
+                icon: <AiFillEye/>,
             }
         ],
-        image: kafkaMl,
-        description: "Project for real-time anomaly detection using kafka and python.",
+        image: lidar,
+        description: "Master technologies including 3D laser scanning, LiDAR, and GPS. Employ machine learning, computer vision, AI, pattern recognition, and signal processing. Innovate in providing spatial-temporal GIS analyses, and dynamic data analytics for mapping, forecasting, and optimization.\n" +
+            "Identify asset deficiencies such as potholes, cracks, and hazardous roadway sections, enabling predictive and proactive safety analyses and improvements.",
         target: "_blank"
     },
     {
         id: "project-2",
-        title: "Pyworkforce",
+        title: "Enhancing Drug Design with Advanced Protein Stability Prediction Tools",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/pyworkforce",
+                url: "https://github.com/majiangqin/Enhancing-Drug-Design-with-Advanced-Protein-Stability-Prediction-Deep-Learning-Tools",
                 icon: <AiFillGithub/>
             },
             {
-                name: "fork",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/fork",
-                icon: <BiGitRepoForked/>
-            },
-            {
                 name: "subscription",
-                url: "https://github.com/rodrigo-arenas/pyworkforce/subscription",
+                url: "https://www.youtube.com/watch?v=8dM2V2cKwHU",
                 icon: <AiFillEye/>
-            },
-            {
-                name: "docs",
-                url: "https://pyworkforce.readthedocs.io/en/stable/",
-                icon: <ImBook/>,
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
-        description: "Standard tools for workforce management, queuing, scheduling, rostering and optimization problems.",
+        image: kafkaMl,
+        description: "Developed an integrated approach using graph neural networks and evolutionary scale modeling for protein thermostability\n" +
+            "predictions, enhancing drug discovery workflows. Employed AlphaFold2 to predict 3D protein structures, facilitating stability\n" +
+            "studies due to mutations. \n"  +
+            "Designed interactive web application for 3D protein structure visualization and manipulation.\n",
         target: "_blank"
     },
     {
         id: "project-1",
-        title: "Portfolio Web",
+        title: "Image-to-Recipe Translation Using AI",
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/portfolio",
+                url: "https://github.com/majiangqin/Image-to-Recipe-Translation-using-AI",
                 icon: <AiFillGithub/>
             },
             {
-                name: "fork",
-                url: "https://github.com/rodrigo-arenas/portfolio/fork",
-                icon: <BiGitRepoForked/>
-            },
-            {
-                name: "subscription",
-                url: "https://github.com/rodrigo-arenas/portfolio/subscription",
-                icon: <AiFillEye/>
+                name: "docs",
+                url: "http://arxiv.org/abs/2407.00911",
+                icon: <ImBook/>,
             }
         ],
-        image: portfolio,
-        description: "Source code of my current portfolio web page as data scientist.",
+        image: food,
+        description: "Developed AI system for automatic food image analysis and recipe generation using CNNs and RNNs.\n" +
+            "Implemented transfer learning and fine-tuned pre-trained models like ResNet, LSTM, Transformer and Inception.",
         target: "_blank"
-    }
+    },
 ]
 
 export default projectConfig

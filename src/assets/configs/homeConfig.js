@@ -28,8 +28,8 @@ const homeConfig = {
             company: "Connected to Culture",
             description: "Implemented ML models for user engagement and content recommendation. " +
                      "Enhanced features using MongoDB. Expertise in GCP, full-stack development. " ,
-            date: "2023-Present",
-            icon: <BiRocket/>,
+            date: "Dec 2023-Present",
+            icon: <FaMobileAlt/>,
             tags: ["ml", "python", "GCP", "llm", "chatbot"]
         },
         {
@@ -50,7 +50,7 @@ const homeConfig = {
                 "recognition, and signal processing. Innovate in providing spatial-temporal GIS analyses, and dynamic data analytics for\n" +
                 "mapping, forecasting, and optimization.",
             date: "Jul 2024-Present",
-            icon: <FaMobileAlt/>,
+            icon: <BiRocket/>,
             tags: ["ml", "deeplearning", "python", "gis", "lidar", "gps"]
         },
     ]
