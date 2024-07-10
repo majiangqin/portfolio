@@ -4,6 +4,8 @@ import { AiFillCode, AiFillHome, AiOutlineGithub } from "react-icons/ai";
 
 import { BsMedium } from "react-icons/bs";
 
+import { FaBook } from "react-icons/fa";
+
 const menuConfig = {
   sidebarData: [
     {
@@ -22,9 +24,9 @@ const menuConfig = {
     },
     {
       id: "menu-2",
-      title: "Blogs",
+      title: "Publications",
       path: "/blogs",
-      icon: <BsMedium size={35} />,
+      icon: <FaBook size={35} />,
       className: "nav-text",
     },
     {

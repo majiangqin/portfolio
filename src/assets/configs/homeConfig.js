@@ -24,52 +24,35 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-4",
-            title: "Sr ML Engineer",
-            company: "EPAM",
-            description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
+            title: "Lead Data Scientist",
+            company: "Connected to Culture",
+            description: "Implemented ML models for user engagement and content recommendation. " +
+                     "Enhanced features using MongoDB. Expertise in GCP, full-stack development. " ,
             date: "2023-Present",
             icon: <BiRocket/>,
-            tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
+            tags: ["ml", "python", "GCP", "llm", "chatbot"]
         },
         {
             id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-2023",
+            title: "AI research intern",
+            company: "Blockonomics",
+            description: "Developed AI models to predict Bitcoin mempool behavior, formulating and adapting features for optimal model training\n" +
+                "Analyzed Bitcoin blockchain internals, and iteratively improved model accuracy through rigorous testing and refinement.",
+            date: "Aug 2024- Oct 2024",
             icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            tags: ["ml", "deeplearning", "python", "blockchain", "bitcoin"]
         },
         {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
+            title: "Student Researcher",
+            company: "Georgia Tech",
+            description: "Master technologies including 3D laser scanning, LiDAR, and GPS. Employ machine learning, computer vision, AI, pattern\n" +
+                "recognition, and signal processing. Innovate in providing spatial-temporal GIS analyses, and dynamic data analytics for\n" +
+                "mapping, forecasting, and optimization.",
+            date: "Jul 2024-Present",
             icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+            tags: ["ml", "deeplearning", "python", "gis", "lidar", "gps"]
         },
-        {
-            id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
-        },
-        {
-            id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
-        }
     ]
 }
 
