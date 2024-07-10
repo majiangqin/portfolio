@@ -26,7 +26,7 @@ const homeConfig = {
             id: "work-4",
             title: "Lead Data Scientist",
             company: "Connected to Culture",
-            description: "Implemented ML models for user engagement and content recommendation. " +
+            description: "Implemented ML models for user engagement and content recommendation. \n\n" +
                      "Enhanced features using MongoDB. Expertise in GCP, full-stack development. " ,
             date: "Dec 2023-Present",
             icon: <FaMobileAlt/>,
