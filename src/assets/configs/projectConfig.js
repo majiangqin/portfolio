@@ -62,9 +62,10 @@ const projectConfig = [
             }
         ],
         image: sdxl,
-        description: "Preprocess structured and unstructured data, including product attributes, text, and imagery. Engineer and integrate\n" +
-            "Generative AI models for automated image icon generation and transfer learning.\n" +
-            "Evaluate system performance and iteratively refined algorithms to improve effectiveness.",
+        description: "Engineered robust data pipeline for diverse datasets, handling structured product attributes and unstructured text and\n" +
+            "imagery.\n" +
+            "Implemented and fine-tuned Generative AI models, achieving automated icon generation and enhancing transfer learning\n" +
+            "capabilities. Conducted comprehensive performance analysis",
         target: "_blank"
     },
     {
