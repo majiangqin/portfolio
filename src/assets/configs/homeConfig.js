@@ -36,8 +36,10 @@ const homeConfig = {
             id: "work-3",
             title: "AI research intern",
             company: "Blockonomics",
-            description: "Developed AI models to predict Bitcoin mempool behavior, formulating and adapting features for optimal model training\n" +
-                "Analyzed Bitcoin blockchain internals, and iteratively improved model accuracy through rigorous testing and refinement.",
+            description: "Developed and implemented advanced machine learning models to predict Bitcoin mempool behavior, enhancing transaction\n" +
+                "fee estimation and user experience in the Bitcoin network.\n" +
+                "Created a robust system for real-time mempool trend forecasting, providing valuable insights for cryptocurrency users and\n" +
+                "potentially reducing transaction costs",
             date: "Aug 2024- Oct 2024",
             icon: <DiCodeigniter/>,
             tags: ["ml", "deeplearning", "python", "blockchain", "bitcoin"]
