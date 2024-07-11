@@ -15,6 +15,7 @@ const homeConfig = {
         "A Data Scientist",
         "A Machine Learning Specialist",
         "A Full Stack Developer",
+        "A Geospatial Data Analyst",
     ],
     about: {
         start: "I am currently studying at Georgia Tech and working as a lead data scientist at Connected to Culture. ",
