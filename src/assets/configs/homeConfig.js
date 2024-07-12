@@ -27,7 +27,7 @@ const homeConfig = {
             id: "work-4",
             title: "Lead Data Scientist",
             company: "Connected to Culture",
-            description: "Implemented ML models for user engagement and content recommendation. \n\n" +
+            description: "Implemented Machine Learning models for user engagement and content recommendation. \n" +
                      "Enhanced features using MongoDB. Expertise in GCP, full-stack development. " ,
             date: "Dec 2023-Present",
             icon: <FaMobileAlt/>,
@@ -40,7 +40,7 @@ const homeConfig = {
             description: "Developed and implemented advanced machine learning models to predict Bitcoin mempool behavior, enhancing transaction\n" +
                 "fee estimation and user experience in the Bitcoin network.\n" +
                 "Created a robust system for real-time mempool trend forecasting, providing valuable insights for cryptocurrency users and\n" +
-                "potentially reducing transaction costs",
+                "potentially reducing transaction costs。",
             date: "Aug 2024- Oct 2024",
             icon: <DiCodeigniter/>,
             tags: ["ml", "deeplearning", "python", "blockchain", "bitcoin"]
