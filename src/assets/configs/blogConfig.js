@@ -26,9 +26,9 @@ const blogConfig = [
         description: "Developed AI system for automatic food image analysis and recipe generation using CNNs and RNNs.\n" +
             "Implemented transfer learning and fine-tuned pre-trained models like ResNet, LSTM, Transformer and Inception.",
         target: "_blank"
-    }
+    },
 
-        {
+    {
         id: "blog-2",
         title: "Fine-Tuning Stable Diffusion XL for Stylistic Icon Generation",
         links: [

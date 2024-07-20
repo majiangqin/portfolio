@@ -63,10 +63,8 @@ const projectConfig = [
             }
         ],
         image: sdxl,
-        description: "Engineered robust data pipeline for diverse datasets, handling structured product attributes and unstructured text and\n" +
-            "imagery.\n" +
-            "Implemented and fine-tuned Generative AI models, achieving automated icon generation and enhancing transfer learning\n" +
-            "capabilities. Conducted comprehensive performance analysis",
+       description: "Engineered robust data pipeline to process diverse datasets, including structured product attributes, unstructured text, and imagery, optimizing for scalability and production readiness.\n" +
+            "Implemented and fine-tuned Generative AI models for automated icon generation, achieving production-quality results and significant time savings in design workflows.",
         target: "_blank"
     },
     {
