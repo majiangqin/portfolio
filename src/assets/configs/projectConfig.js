@@ -52,12 +52,13 @@ const projectConfig = [
         links: [
             {
                 name: "repo",
-                url: "https://github.com/Connected-To-Culture",
+                url: "https://github.com/majiangqin/Fine-Tuning-Stable-Diffusion-XL-for-Stylistic-Icon-Generation_",
                 icon: <AiFillGithub/>,
             },
             {
                 name: "docs",
-                url: "https://www.connectedtoculture.org/",
+                url: "\n" +
+                    "https://doi.org/10.48550/arXiv.2407.08513",
                 icon: <ImBook/>,
             }
         ],
