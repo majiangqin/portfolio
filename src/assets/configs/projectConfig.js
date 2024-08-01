@@ -2,6 +2,7 @@ import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub, AiFillEye} from "react-icons/ai";
 import {ImBook} from "react-icons/im";
 import {FaBookOpen} from "react-icons/fa";
+import {AiFillIeCircle } from 'react-icons/ai';
 
 import sklearnGenetic from "../images/sklearn_genetic_opt.png"
 import graphEmbeddings from "../images/graph_embeddings.png"
@@ -32,12 +33,12 @@ const projectConfig = [
             {
                 name: "subscription",
                 url: "https://github.com/Connected-To-Culture/trip-planner-front-end/tree/chatbot-test",
-                icon: <AiFillEye/>,
+                icon: <BiGitRepoForked/>,
             },
             {
                 name: "docs",
                 url: "https://www.connectedtoculture.org/",
-                icon: <FaBookOpen/>,
+                icon: <AiFillIeCircle/>,
             }
         ],
         image: chatbot,
@@ -74,7 +75,7 @@ const projectConfig = [
             {
                 name: "docs",
                 url: "https://vip.gatech.edu/teams/vvc",
-                icon: <AiFillEye/>,
+                icon: <AiFillIeCircle/>,
             }
         ],
         image: lidar,
@@ -93,7 +94,7 @@ const projectConfig = [
             },
             {
                 name: "subscription",
-                url: "https://www.youtube.com/watch?v=8dM2V2cKwHU",
+                url: "https://www.youtube.com/watch?v=IbQWr89lMok&list=PLiuFBGOczQsFA_utn86-8eFfRbii-nopO",
                 icon: <AiFillEye/>
             }
         ],
