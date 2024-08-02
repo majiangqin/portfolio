@@ -3,6 +3,7 @@ import {AiFillGithub, AiFillEye} from "react-icons/ai";
 import {ImBook} from "react-icons/im";
 import {FaBookOpen} from "react-icons/fa";
 import {AiFillIeCircle } from 'react-icons/ai';
+import {AiFillYoutube } from 'react-icons/ai';
 
 import sklearnGenetic from "../images/sklearn_genetic_opt.png"
 import graphEmbeddings from "../images/graph_embeddings.png"
@@ -95,7 +96,7 @@ const projectConfig = [
             {
                 name: "subscription",
                 url: "https://www.youtube.com/watch?v=IbQWr89lMok&list=PLiuFBGOczQsFA_utn86-8eFfRbii-nopO",
-                icon: <AiFillEye/>
+                icon: <AiFillYoutube/>
             }
         ],
         image: kafkaMl,
