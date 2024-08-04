@@ -77,6 +77,11 @@ const projectConfig = [
                 name: "docs",
                 url: "https://vip.gatech.edu/teams/vvc",
                 icon: <AiFillIeCircle/>,
+            },
+            {
+                name: "docs",
+                url: "https://youtu.be/c5sffAwnMWQ",
+                icon: <AiFillYoutube/>,
             }
         ],
         image: lidar,
