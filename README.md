@@ -18,6 +18,8 @@ The page mainly uses React and react-bootstrap and is inspired by open-source co
   ```
 * Start the project
   ```
+  export NODE_OPTIONS=--openssl-legacy-provider
+
   npm start
   ```
 
