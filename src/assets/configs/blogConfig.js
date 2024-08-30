@@ -60,9 +60,7 @@ const blogConfig = [
             }
         ],
         image: blog3,
-        description: "This paper presents a high-resolution remote sensing image segmentation method, using distributions of local binary patterns/contrasts (LBP/C) of Gabor texture features to measure the similarity of adjacent image regions during segmentation. " +
-            "The method is integrated into a split-merge plus refinement framework. Segmentation is realized by comparing correlation coefficients between different Gabor feature LBP/C histograms of sub-regions. The image can be segmented into different regions that often correspond to different land-use or other objects. " +
-            "Experimental results show that it is effective to use Gabor texture features in high-resolution remote sensing image segmentation.",
+        description: "This paper introduces a method for segmenting high-resolution remote sensing images using local binary patterns/contrasts of Gabor texture features within a split-merge framework, effectively distinguishing different land-use areas.",
         target: "_blank"
     },
     {
