@@ -13,7 +13,7 @@ const footerConfig = {
         },
         {
             id: "footer-1",
-            url: "https://www.linkedin.com/in/julia-ma-315849227/",
+            url: "https://www.linkedin.com/in/jiangqin-ma-315849227/",
             className: "social-icon",
             target: "_blank",
             icon: <FaLinkedinIn size={50}/>
