@@ -33,20 +33,9 @@ const homeConfig = {
             icon: <FaMobileAlt/>,
             tags: ["ml", "python", "GCP", "llm", "chatbot"]
         },
+
         {
             id: "work-3",
-            title: "AI research intern",
-            company: "Blockonomics",
-            description: "Developed and implemented advanced machine learning models to predict Bitcoin mempool behavior, enhancing transaction\n" +
-                "fee estimation and user experience in the Bitcoin network.\n" +
-                "Created a robust system for real-time mempool trend forecasting, providing valuable insights for cryptocurrency users and\n" +
-                "potentially reducing transaction costs.",
-            date: "Aug 2024- Oct 2024",
-            icon: <DiCodeigniter/>,
-            tags: ["ml", "deeplearning", "python", "blockchain", "bitcoin"]
-        },
-        {
-            id: "work-2",
             title: "Student Researcher",
             company: "Georgia Tech",
             description: "Master technologies including 3D laser scanning, LiDAR, and GPS. Employ machine learning, computer vision, AI, pattern\n" +
@@ -56,6 +45,31 @@ const homeConfig = {
             icon: <BiRocket/>,
             tags: ["ml", "deeplearning", "python", "gis", "lidar", "gps"]
         },
+        {
+            id: "work-2",
+            title: "AI research intern",
+            company: "Blockonomics",
+            description: "Developed and implemented advanced machine learning models to predict Bitcoin mempool behavior, enhancing transaction\n" +
+                "fee estimation and user experience in the Bitcoin network.\n" +
+                "Created a robust system for real-time mempool trend forecasting, providing valuable insights for cryptocurrency users and\n" +
+                "potentially reducing transaction costs.",
+            date: "Aug 2023- Oct 2023",
+            icon: <DiCodeigniter/>,
+            tags: ["ml", "deeplearning", "python", "blockchain", "bitcoin"]
+        },
+        {
+            id: "work-1",
+            title: "Data Science Practicum",
+            company: "The Home Depots",
+            description: "Engineered robust data pipeline to process diverse datasets, including structured product attributes, unstructured text, and\n" +
+                "imagery, optimizing for scalability and production readiness.\n" +
+                "Implemented and fine-tuned Generative AI models for automated icon generation, achieving production-quality results and\n" +
+                "significant time savings in design workflows",
+            date: "Apr 2023- Aug 2023",
+            icon: <DiCodeigniter/>,
+            tags: ["ml", "deeplearning", "python", "generative ai", "hugging face"]
+        },
+
     ]
 }
 
