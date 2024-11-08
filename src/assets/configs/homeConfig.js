@@ -35,10 +35,10 @@ const homeConfig = {
         },
         {
             id: "work-6",
-            title: "AI Data Analyst",
+            title: "AI Data Specialist",
             company: "Welocalize",
             description: "Conducted research per project guidelines to ensure data accuracy across maps, news, and audio tasks. Transformed raw data into actionable insights, enhancing content quality and user experience. Verified and categorized data to support reliable, data-driven decisions for a wide audience. " ,
-            date: "Jan 2023-Present",
+            date: "May 2024-Present",
             icon: <FaMobileAlt/>,
             tags: ["ml", "llm", "excel"]
         },
