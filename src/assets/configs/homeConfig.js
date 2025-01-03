@@ -45,7 +45,7 @@ const homeConfig = {
 
         {
             id: "work-5",
-            title: "Student Researcher",
+            title: "Researcher",
             company: "Georgia Tech",
             description: "Master technologies including 3D laser scanning, LiDAR, and GPS. Employ machine learning, computer vision, AI, pattern\n" +
                 "recognition, and signal processing. Innovate in providing spatial-temporal GIS analyses, and dynamic data analytics for\n" +
@@ -71,7 +71,7 @@ const homeConfig = {
                 "imagery, optimizing for scalability and production readiness.\n" +
                 "Implemented and fine-tuned Generative AI models for automated icon generation, achieving production-quality results and\n" +
                 "significant time savings in design workflows",
-            date: "Apr 2023- Aug 2023",
+            date: "Apr 2024- Aug 2024",
             icon: <DiCodeigniter/>,
             tags: ["ml", "deeplearning", "python", "generative ai", "hugging face"]
         },
