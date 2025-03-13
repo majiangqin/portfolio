@@ -13,6 +13,7 @@ import chatbot from "../images/chatbot.png"
 import lidar from "../images/lidar.png"
 import food from "../images/food.png"
 import sdxl from "../images/sdxl.png"
+import bitcoin from "../images/bitcoin.png"
 
 import React from 'react'
 
@@ -129,6 +130,29 @@ const projectConfig = [
         image: food,
         description: "Developed AI system for automatic food image analysis and recipe generation using CNNs and RNNs.\n" +
             "Implemented transfer learning and fine-tuned pre-trained models like ResNet, LSTM, Transformer and Inception.",
+        target: "_blank"
+    },
+        {
+        id: "project-6",
+        title: "Bitcoin Transaction Fee Prediction",
+        links: [
+            {
+                name: "repo",
+                url: "https://github.com/majiangqin/bitcoin",
+                icon: <AiFillGithub/>
+            },
+            {
+                name: "docs",
+                url: "https://arxiv.org/abs/2502.01029",
+                icon: <ImBook/>,
+            }
+        ],
+        image: bitcoin,
+        description: " Developed predictive models for 24-hour Bitcoin fee forecasting using mempool\n" +
+            "metrics, network parameters, and historical trends. Evaluated performance through 5-fold cross-validation and\n" +
+            "independent testing. Identified SARIMAX as the most accurate model, outperforming deep learning approaches\n" +
+            "(Time2Vec, Temporal Fusion Transformer) with limited training data. Provided actionable insights to optimize\n" +
+            "fee-sensitive Bitcoin transactions.",
         target: "_blank"
     },
 ]

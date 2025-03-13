@@ -6,6 +6,9 @@ import icon from "../images/icon.png";
 import blog3 from "../images/blog3.png"
 import blog4 from "../images/blog4.png"
 import blog5 from "../images/blog5.png"
+import blog6 from "../images/blog6.png"
+import bitcoin from "../images/bitcoin.png"
+import blog8 from "../images/blog8.png"
 
 
 const blogConfig = [
@@ -89,13 +92,65 @@ const blogConfig = [
             }
         ],
         image: blog5,
-        description: "The LiDAR control system at Wuhan University communicates with a multi-channel photon counter SR430 and a laser reflection platform via GPIB and serial buses, respectively. " +
-            "This system enables the automation of LiDAR observations and real-time processing of observation data. Based on the normal distribution characteristics of the optimal observation point offset, an automatic search function was incorporated into the daily alignment of the emission optical axis, " +
-            "reducing the time required for system joint adjustment to approximately 30 minutes and simplifying the operation steps. " +
-            "During the LiDAR observation of meteor trails from 21:20 on November 11, 2006, to 6:20 on November 12, 9 hours of effective data were obtained using this system. " +
-            "Experimental results demonstrate that the control system is easy to operate and runs stably.",
+        description: "The LiDAR control system at Wuhan University communicates with a photon counter and laser platform, automating observations and real-time data processing. An automatic alignment feature reduces setup time to about 30 minutes. Tests showed the system is easy to use and stable, collecting 9 hours of meteor trail data.",
         target: "_blank"
-    }
+    },
+        {
+        id: "blog-6",
+        title: "An efficient hybrid downscaling framework to\n" +
+            "estimate high-resolution river hydrodynamics",
+        links: [
+            {
+                name: "article",
+                url: "https://doi.org/10.5194/egusphere-2024-3816",
+                icon: <ImBook />,
+            }
+        ],
+        image: blog6,
+        description: "This paper presents an efficient hybrid modeling approach (LSG) for accurately downscaling river flow depth and velocity, greatly reducing errors and computational cost, enabling detailed flood modeling.",
+        target: "_blank"
+    },
+        {
+        id: "blog-7",
+        title: "omprehensive Modeling Approaches for Forecasting Bitcoin Transaction Fees: A\n" +
+            "Comparative Study",
+        links: [
+            {
+                name: "article",
+                url: "https://arxiv.org/abs/2502.01029",
+                icon: <ImBook />,
+            },
+            {
+                name: "repo",
+                url: "https://github.com/majiangqin/bitcoin",
+                icon: <AiFillGithub />
+            }
+        ],
+        image: bitcoin,
+        description: "Developed a 24-hour Bitcoin fee forecasting model using mempool metrics, network parameters, and historical trends. SARIMAX outperformed deep learning models, providing insights for optimizing fee-sensitive transactions.",
+        target: "_blank"
+    },
+        {
+        id: "blog-8",
+        title: "Precision in Mutation: Enhancing Drug Design\n" +
+            "with Advanced Protein Stability Prediction Tools",
+        links: [
+            {
+                name: "article",
+                url: "https://arxiv.org/abs/2501.07014",
+                icon: <ImBook />,
+            },
+                  {
+                name: "repo",
+                url: "https://github.com/majiangqin/Enhancing-Drug-Design-with-Advanced-Protein-Stability-Prediction-Deep-Learning-Tools/tree/main",
+                icon: <AiFillGithub />
+            }
+        ],
+        image: blog8,
+        description: "Developed ThermoMPNN+, a deep learning model using structural and sequence embeddings to predict protein stability changes from single-point mutations. Built an interactive web app with 3D protein visualization to enhance drug discovery and protein engineering.",
+        target: "_blank"
+    },
+
 ];
 
 export default blogConfig;

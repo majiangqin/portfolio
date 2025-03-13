@@ -4,6 +4,10 @@ import {DiCodeigniter} from "react-icons/di";
 import {GiCommercialAirplane} from "react-icons/gi";
 import {FaMobileAlt} from "react-icons/fa";
 import { BiRocket } from "react-icons/bi";
+import { FaMapMarkedAlt } from "react-icons/fa";
+import { FaChartLine } from "react-icons/fa";
+import { FaRobot } from "react-icons/fa";
+import { FaChartBar } from "react-icons/fa";
 
 const homeConfig = {
 
@@ -15,10 +19,10 @@ const homeConfig = {
         "A Data Scientist",
         "A Machine Learning Specialist",
         "A Full Stack Developer",
-        "A Geospatial Data Analyst",
+        "A Data Analyst",
     ],
     about: {
-        start: "I am currently studying at Georgia Tech and working as a lead data scientist at Connected to Culture. ",
+        start: "I recently graduated with a master's degree in Analytics from Georgia Tech and am currently working as a lead data scientist at Connected to Culture. ",
         exit:  "I have a strong interest in data science, with expertise in machine learning, deep learning, " +
             "geospatial data analysis, and cloud technologies."
     },
@@ -39,7 +43,7 @@ const homeConfig = {
             company: "Welocalize",
             description: "Conducted research per project guidelines to ensure data accuracy across maps, news, and audio tasks. Transformed raw data into actionable insights, enhancing content quality and user experience. Verified and categorized data to support reliable, data-driven decisions for a wide audience. " ,
             date: "Apr 2024-Present",
-            icon: <FaMobileAlt/>,
+            icon: <FaChartBar/>,
             tags: ["ml", "llm", "excel"]
         },
 
@@ -72,7 +76,7 @@ const homeConfig = {
                 "Implemented and fine-tuned Generative AI models for automated icon generation, achieving production-quality results and\n" +
                 "significant time savings in design workflows",
             date: "Apr 2024- Aug 2024",
-            icon: <DiCodeigniter/>,
+            icon: <FaRobot/>,
             tags: ["ml", "deeplearning", "python", "generative ai", "hugging face"]
         },
        {
@@ -81,8 +85,17 @@ const homeConfig = {
             company: "New York Life",
             description: "Performed financial analysis to assess clients' insurance and investment needs, providing tailored solutions for long-term security. Developed customized financial plans with a focus on life insurance, annuities, and retirement strategies. Presented financial products and offered guidance to help clients make informed decisions for their personal and business goals.",
             date: "Jan 2022 - Dec 2022",
-            icon: <DiCodeigniter/>,
+            icon: <FaChartLine/>,
             tags: ["ml", "forecasting", "risk assessment", "financial analysis", "SQL"]
+        },
+        {
+            id: "work-1",
+            title: "Software Engineer",
+            company: "CHC Navigation",
+            description: "Integrated GPS and GIS analytics, performing data cleaning, transformation, visualization, and optimized software testing and documentation processes to support business decisions.",
+            date: "Jun 2015 - May 2020",
+            icon: <FaMapMarkedAlt/>,
+            tags: ["GPS Analytics", "Data Visualization", "Documentation", "Cross-functional Collaboration", "SQL"]
         },
     ]
 }
